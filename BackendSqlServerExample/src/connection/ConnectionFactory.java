@@ -8,7 +8,7 @@ public class ConnectionFactory {
 	public Connection conectar() throws Exception{
 		
 		return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", 
-				"system", "0f0000a210");
+				"system", "password");
 		
 	} 
 	
